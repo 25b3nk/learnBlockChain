@@ -5,6 +5,12 @@
 1. Setting the data structures of block and block chain.
 1. Adding methods to add to block chain, create hash, and initialization of blockchain.
 
+Run the code
+
+```bash
+go run main.go
+```
+
 ### Part-1 reference
 
 1. [Blog: Building a Blockchain in Go PT: 1](https://dev.to/nheindev/build-the-hello-world-of-blockchain-in-go-bli)
