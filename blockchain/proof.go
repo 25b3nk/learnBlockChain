@@ -60,6 +60,7 @@ func (pow *ProofOfWork) Run() (int, []byte) {
 		intHash.SetBytes(hash[:])
 
 		if intHash.Cmp(pow.Target) == -1 {
+			// To check if the value of intHash is lesser than the target
 			break
 		} else {
 			nonce++
